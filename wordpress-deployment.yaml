@@ -34,7 +34,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - image: kpkishore/webtestwp:v2
+      - image: kpkishore/webtestwp:v8
         name: wordpress
         env:
         - name: WORDPRESS_DB_HOST
